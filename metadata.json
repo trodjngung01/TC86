@@ -1,5 +1,5 @@
 {
   "name": "Trình trích xuất dữ liệu tài liệu AI",
-  "description": "Tải lên các tệp PDF như công văn, hợp đồng, quyết định. AI sẽ tự động đọc, trích xuất thông tin và hiển thị dưới dạng bảng. Dữ liệu này có thể được sao chép để dán vào Google Sheet.",
+  "description": "Tải lên các tệp PDF, chọn một thư mục Google Drive, và AI sẽ tự động đọc, trích xuất thông tin quan trọng. Dữ liệu sau đó có thể được lưu trực tiếp vào Google Sheets bạn chọn.",
   "requestFramePermissions": []
 }
