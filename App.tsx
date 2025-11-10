@@ -1,9 +1,9 @@
 
 import React, { useState, useCallback, useEffect } from 'react';
-import { ProcessedFile } from './types';
-import { extractDataFromPdf } from './services/geminiService';
-import * as GoogleApi from './services/googleApiService';
-import { UploadIcon, FileIcon, CheckCircleIcon, XCircleIcon, SpinnerIcon, GoogleIcon } from './components/Icons';
+import { ProcessedFile } from './types.ts';
+import { extractDataFromPdf } from './services/geminiService.ts';
+import * as GoogleApi from './services/googleApiService.ts';
+import { UploadIcon, FileIcon, CheckCircleIcon, XCircleIcon, SpinnerIcon, GoogleIcon } from './components/Icons.tsx';
 
 const App: React.FC = () => {
   const [files, setFiles] = useState<File[]>([]);

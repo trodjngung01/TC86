@@ -2,7 +2,7 @@
 <html lang="vi">
   <head>
     <meta charset="UTF--8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- 
       QUAN TRỌNG: Bạn cần thay thế 'YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com' 
@@ -12,6 +12,7 @@
     <meta name="google-signin-client_id" content="913082020657-o6rgnnnmt3bptccv7bk1siljghgq3hf1.apps.googleusercontent.com">
     <title>Trình trích xuất dữ liệu tài liệu AI</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <style>
       /* Custom scrollbar for better aesthetics */
       ::-webkit-scrollbar {
@@ -41,6 +42,6 @@
 </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    <script type="text/babel" data-presets="react,typescript" data-type="module" src="./index.tsx"></script>
   </body>
 </html>

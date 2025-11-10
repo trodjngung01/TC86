@@ -1,7 +1,7 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { fileToBase64 } from '../utils/fileUtils';
-import { ExtractedData } from '../types';
+import { fileToBase64 } from '../utils/fileUtils.ts';
+import { ExtractedData } from '../types.ts';
 
 const API_KEY = process.env.API_KEY;
 
